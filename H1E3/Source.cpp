@@ -31,6 +31,7 @@ int main()
 	input(max);
 	calcNprint(max);
 
+	delete max;
 	_getch();
 	return 0;
 }
